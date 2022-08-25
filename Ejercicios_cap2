@@ -1,0 +1,50 @@
+using System;
+	public class capitulo_2 {
+		public static void Main(string[] args) {
+			double media;
+			double multi;
+			double sum;
+			double val_dob;
+			double val_ing;
+			double num1;
+			double num2;
+			double num3;
+			double num4;
+			double variab_2;
+			Console.WriteLine("Ejercicio 2_3");
+			Console.WriteLine("Ingrese un valor");
+			val_ing  = Double.Parse(Console.ReadLine());
+			val_dob = val_ing *2;
+			Console.WriteLine("Numero doblado : "+val_dob);
+			Console.WriteLine("Numero doblado y multiplicado por 25 : "+val_dob*25);
+     Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("Ejercicio 2_4");
+			Console.WriteLine("Ingrese cuatro variables ");
+			num1 = Double.Parse(Console.ReadLine());
+			num2 = Double.Parse(Console.ReadLine());
+			num3 = Double.Parse(Console.ReadLine());
+			num4 = Double.Parse(Console.ReadLine());
+			sum = num1+num2+num3+num4;
+			multi = num1*num2*num3*num4;
+			media = sum/4;
+			Console.WriteLine("Sum de las variables:"+sum);
+			Console.WriteLine("multiplicación de las variables:"+multi);
+			Console.WriteLine("media aritmetica de las variables:"+media);
+     Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("Ejercicio 2_15");
+			Console.WriteLine("el cuadrado de 821 es: "+Math.Pow(821,2));
+      Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("Ejercicio 2_16");
+			Console.WriteLine("La sum de los números enteros del uno al 10 es "+1+2+3+4+5+6+7+8+9+10);
+     Console.WriteLine("");
+			Console.WriteLine("");
+			Console.WriteLine("Ejercicio 2_17");
+			for (num2=0;num2<=10;num2++) {
+				Console.WriteLine(Math.Pow(num2,2));
+			}
+		}
+
+	}
